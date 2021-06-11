@@ -1,0 +1,172 @@
+body{
+  background-image: url(/imagenes/fondo\ comida.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+header{
+  margin: 35px 36px 40px 36px;
+}
+#nav-bar{
+  position: fixed;
+  top: 0;
+  width: 50%;
+  font-size: 22px;
+  margin: 0 30% auto 30%;
+  color:rgb(0, 0, 0);
+
+}
+ul{
+  list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    color: white;
+    margin: 1% 1% 1% 68%;
+    width: 41%;
+}
+a{
+  background-color: rgb(53, 46, 46);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: white;
+
+}a:hover{
+  background-color: rgb(68, 200, 63);
+  color:white;
+  display:block;
+
+}
+#header-img{
+  width: 300px;
+  height: 280px;
+  border-radius: 50%;
+  margin: 2% 40% 0 41%;
+}
+h1{
+  text-align: center;
+}
+video{
+  margin: 2% 32% 5% 32%;
+}
+.contenedor{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+#form{
+  padding: 40px;
+  text-align: center;
+}
+#boton{
+  padding: 10px ;
+  background-color: lawngreen;
+  color:black;
+  font-size: 17px;
+  border-radius: 20px;
+  border: 1px solid black
+}
+#email{
+  padding: 10px;
+  font-size: 17px;
+  width: 20%;
+}
+#submit{
+  padding: 10px;
+  background-color: chartreuse;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+  @media screen and (max-width: 640px) {
+  
+    body{
+      background-image: url(/imagenes/fondo\ comida.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 100%;
+    }
+    
+    header{
+      margin: 35px 36px 40px 36px;
+    }
+    #nav-bar{
+      position: fixed;
+      top: 0;
+      width: 50%;
+      font-size: 22px;
+      margin: 0 30% auto 30%;
+      color:rgb(0, 0, 0);
+    
+    }
+    ul{
+      list-style: none;
+        display: inline-block;
+        justify-content: space-around;
+        color: white;
+        margin: 1% 1% 1% 68%;
+        width: 41%;
+    }
+    a{
+      margin-left: -164%;
+      background-color: rgb(53, 46, 46);
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      color: white;
+    
+    }a:hover{
+      background-color: rgb(68, 200, 63);
+      color:white;
+      display:block;
+    
+    }
+    #header-img{
+      width: 300px;
+      height: 280px;
+      border-radius: 50%;
+      margin: 2% 40% 0 88%;
+    }
+    h1{
+      text-align: center;
+    }
+    video{
+      margin: 2% 32% 5% 32%;
+    }
+    .contenedor{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: space-around;
+      flex-wrap: wrap;
+      align-items: stretch;
+      margin-left: 122%;
+    }
+    #form{
+      padding: 10px;
+      text-align: center;
+    }
+    #boton{
+      padding: 10px ;
+      background-color: lawngreen;
+      color:black;
+      font-size: 17px;
+      border-radius: 20px;
+      border: 1px solid black
+    }
+    #email{
+      padding: 10px;
+      font-size: 17px;
+      width: 20%;
+    }
+    #submit{
+      padding: 10px;
+      background-color: chartreuse;
+      font-size: 17px;
+      border-radius: 10px;
+    }
+  }

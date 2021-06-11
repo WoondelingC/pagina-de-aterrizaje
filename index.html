@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="imagenes/Screenshot_20210607-191916-1.jpg">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Pagina de aterrizaje</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <ul>
+        <div class="contenedor">
+        <li><a class="nav-link" href="#form">Registrate</a></li>
+        <li><a class="nav-link" href="#plato1">Menú</a></li>
+        <li><a class="nav-link" href="#plato2">Precios</a></li>
+      </div>
+      </ul>
+    </nav>
+    <img id="header-img" src="imagenes/Screenshot_20210607-191916-1.jpg" alt="Delicias">
+    <h1 id="titulo">Que Manguangüa</h1>
+  </header>
+  <main id="cuerpo">
+    <section>
+      <h1 id="sub-titulo">
+        Delicias Venezolanas
+        <span>#1</span>
+      </h1>
+      </div>
+      <div>
+        <video autoplay loop src="multimedia/hamburguesa.mp4" id="video"></video>
+    </section>
+
+    <div class="contenedor">
+      <div>
+      <img id="plato1" src="imagenes/pepito.jpg" alt="pepito">
+      <h3>Pepito Mixto<br>
+      $20.000</h3>
+      <input id="boton" type="button" value="Se me antoja">
+      </div>
+
+      <div>
+        <img id="plato2" src="imagenes/hamburguesa.jpg" alt="hamburguesa">
+        <h3>Hamburguesa<br>
+          $8.000</h3>
+          <input id="boton" type="button" value="Se me antoja">
+      </div>
+
+      <div>
+        <img id="plato3" src="imagenes/salchipapas.jpg" alt="salchipapas">
+        <h3>Salchipapas Super Mixta<br>
+          $15.000</h3>
+          <input id="boton" type="button" value="Se me antoja">
+      </div>
+    </div>
+  </main>
+
+  <div class="contenedor-Formulario">
+    <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+      <h2>Registrate gratis a nuestra tienda online</h2>
+      <input id="email" type="Email" name="email" placeholder="Enter email" required>
+      <input type="submit" id="submit" value="Registrarme">
+    </form>
+  </div>
+</body>
+
+</html>
